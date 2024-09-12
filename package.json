@@ -1,0 +1,41 @@
+{
+	"name": "react-blue",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsr generate && tsc -b && vite build",
+		"check:write": "pnpm biome check --write .",
+		"check": "pnpm biome check .",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"@radix-ui/react-icons": "^1.3.0",
+		"@radix-ui/react-navigation-menu": "^1.2.0",
+		"@tanstack/react-router": "^1.57.10",
+		"class-variance-authority": "^0.7.0",
+		"clsx": "^2.1.1",
+		"lucide-react": "^0.440.0",
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1",
+		"tailwind-merge": "^2.5.2",
+		"tailwindcss-animate": "^1.0.7"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.8.3",
+		"@tanstack/router-cli": "^1.57.9",
+		"@tanstack/router-devtools": "^1.57.10",
+		"@tanstack/router-plugin": "^1.57.9",
+		"@types/node": "^22.5.4",
+		"@types/react": "^18.3.3",
+		"@types/react-dom": "^18.3.0",
+		"@vitejs/plugin-react-swc": "^3.5.0",
+		"autoprefixer": "^10.4.20",
+		"globals": "^15.9.0",
+		"postcss": "^8.4.45",
+		"tailwindcss": "^3.4.11",
+		"typescript": "^5.5.3",
+		"vite": "^5.4.1"
+	}
+}
