@@ -236,4 +236,11 @@ export default defineConfig({
     - UI is basedon Radix and Tailwind. `shadcn-ui` is not adding anything as such. It is just creating components. 
     - Radix provide UI standard to work with like accessibility
 
+- Let's add some react helpers 
+- Collection of React Hookz `pnpm add @react-hookz/web`
+- Form library. I like `felte` but as we are already having tanstack library let's go for `tanstack`
+- Here is commands `pnpm add @tanstack/react-form @tanstack/valibot-form-adapter valibot` It will also added valibot validation library as well. 
+- Let's add query library `pnpm add @tanstack/react-query`
 
+- Now, here is the game. We want to register a user and login via that user. 
+- We will have fake JSON-server which will have yet another todo list which we should be able to add, read, update and delete. But todo list is behind auth wall
