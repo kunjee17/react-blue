@@ -23,16 +23,6 @@ function RootRoute() {
 							</Link>
 						</NavigationMenuLink>
 					</NavigationMenuItem>
-					<NavigationMenuItem>
-						<NavigationMenuLink asChild>
-							<Link
-								to="/about"
-								className="text-lg font-medium hover:text-blue-500"
-							>
-								About
-							</Link>
-						</NavigationMenuLink>
-					</NavigationMenuItem>
 				</NavigationMenuList>
 			</NavigationMenu>
 

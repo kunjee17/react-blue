@@ -244,3 +244,6 @@ export default defineConfig({
 
 - Now, here is the game. We want to register a user and login via that user. 
 - We will have fake JSON-server which will have yet another todo list which we should be able to add, read, update and delete. But todo list is behind auth wall
+
+- Let's remove about page as we will not required that. Also we will remove Navigation from root route. 
+- 
