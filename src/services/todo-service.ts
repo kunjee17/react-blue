@@ -17,7 +17,6 @@ export const addTodo = async (todo: Todo) => {
 	if (!response.ok) {
 		throw new Error(`Failed to add to-do: ${response.statusText}`);
 	}
-	return await response.json();
 };
 
 export const updateTodo = async (todo: Todo) => {
@@ -31,7 +30,6 @@ export const updateTodo = async (todo: Todo) => {
 	if (!response.ok) {
 		throw new Error(`Failed to update to-do: ${response.statusText}`);
 	}
-	return await response.json();
 };
 
 export const deleteTodo = async (id: string) => {
@@ -44,7 +42,6 @@ export const deleteTodo = async (id: string) => {
 	if (!response.ok) {
 		throw new Error(`Failed to delete to-do: ${response.statusText}`);
 	}
-	return await response.json();
 };
 
 export const getTodos = async () => {
